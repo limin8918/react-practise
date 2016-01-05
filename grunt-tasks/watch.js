@@ -1,6 +1,6 @@
 module.exports = {
     express: {
-        files: ['src/js/{,*/}*.js'],
+        files: ['src/js/{,*/}*.js', 'src/html/index.html', 'src/scss/*.scss'],
         tasks: [ 'express:dev:stop', 'express' ],
         options: {
             atBegin:true,
