@@ -4,7 +4,7 @@ module.exports = {
     dev: {
         options: {
             script: 'src/js/server.js',
-            port: '9000'
+            port: '3000'
         }
     }
 };

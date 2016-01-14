@@ -2,7 +2,7 @@ var express = require('express'),
     app = express(),
     fs = require('fs');
 
-app.listen(3000);
+app.listen(process.env.PORT);
 
 app.use('/static', express.static(__dirname + '/../../public'));
 
